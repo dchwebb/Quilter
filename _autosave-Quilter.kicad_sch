@@ -2743,11 +2743,11 @@
     (pin "1" (uuid 3a1e2a90-cc43-441c-a44e-9a354ffae83d))
     (pin "2" (uuid 052041f6-2f3f-497b-973a-2cb851dbd0e3))
     (pin "3" (uuid c09220b3-5133-468f-9d48-5a99e32514f0))
-    (pin "5" (uuid b4b2e164-b4a6-434f-82ed-008a404bb6b2))
-    (pin "6" (uuid 5a0e1e69-a7f0-4a14-91b5-6456838e2412))
-    (pin "7" (uuid 89a79442-2863-40d5-b955-7fe022249871))
-    (pin "4" (uuid cdd6169a-a1e3-44e5-a972-169eeb71f76a))
-    (pin "8" (uuid cb17916f-b2a2-4335-86e0-10430b98eaf6))
+    (pin "5" (uuid b4b2e164-b4a6-434f-82ed-008a404bb6b3))
+    (pin "6" (uuid 5a0e1e69-a7f0-4a14-91b5-6456838e2413))
+    (pin "7" (uuid 89a79442-2863-40d5-b955-7fe022249872))
+    (pin "4" (uuid cdd6169a-a1e3-44e5-a972-169eeb71f76b))
+    (pin "8" (uuid cb17916f-b2a2-4335-86e0-10430b98eaf7))
   )
 
   (symbol (lib_id "Device:R_Small") (at 248.285 113.665 270) (unit 1)
@@ -3851,9 +3851,6 @@
     (path "/e84f8fd9-bd0a-4839-99bd-bd22e1164470/bd927784-ba91-4d28-828a-fed7c2b4d988"
       (reference "U3") (unit 2) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/d9279b8b-eddd-468d-889c-ab682c020f45/bd927784-ba91-4d28-828a-fed7c2b4d988"
-      (reference "U3") (unit 2) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
-    )
     (path "/e84f8fd9-bd0a-4839-99bd-bd22e1164470/fa0fd49f-18fa-40f2-88b3-679fbd80ef41"
       (reference "U3") (unit 3) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
@@ -3863,13 +3860,16 @@
     (path "/4ed2cc61-9552-41b0-be0f-c23455f3fe4c/fe1d6167-2b36-48a2-a5ff-17aa15ed9177"
       (reference "U5") (unit 1) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
+    (path "/4ed2cc61-9552-41b0-be0f-c23455f3fe4c/bd927784-ba91-4d28-828a-fed7c2b4d988"
+      (reference "U5") (unit 2) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
     (path "/4ed2cc61-9552-41b0-be0f-c23455f3fe4c/fa0fd49f-18fa-40f2-88b3-679fbd80ef41"
       (reference "U5") (unit 3) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/d9279b8b-eddd-468d-889c-ab682c020f45/fe1d6167-2b36-48a2-a5ff-17aa15ed9177"
       (reference "U6") (unit 1) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/3b233311-750f-4948-b3ee-a90810d15ca2/bd927784-ba91-4d28-828a-fed7c2b4d988"
+    (path "/d9279b8b-eddd-468d-889c-ab682c020f45/bd927784-ba91-4d28-828a-fed7c2b4d988"
       (reference "U6") (unit 2) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/d9279b8b-eddd-468d-889c-ab682c020f45/fa0fd49f-18fa-40f2-88b3-679fbd80ef41"
@@ -3881,7 +3881,7 @@
     (path "/3b233311-750f-4948-b3ee-a90810d15ca2/fe1d6167-2b36-48a2-a5ff-17aa15ed9177"
       (reference "U8") (unit 1) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/4ed2cc61-9552-41b0-be0f-c23455f3fe4c/bd927784-ba91-4d28-828a-fed7c2b4d988"
+    (path "/3b233311-750f-4948-b3ee-a90810d15ca2/bd927784-ba91-4d28-828a-fed7c2b4d988"
       (reference "U8") (unit 2) (value "TL072") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/3b233311-750f-4948-b3ee-a90810d15ca2/fa0fd49f-18fa-40f2-88b3-679fbd80ef41"
