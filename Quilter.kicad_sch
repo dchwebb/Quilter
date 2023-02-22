@@ -2084,8 +2084,8 @@
   (symbol (lib_id "Connector:Conn_01x10_Male") (at 83.185 130.175 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3c593478-0576-4e30-bad8-fa652ed5b16d)
-    (property "Reference" "J3" (id 0) (at 83.82 114.3 0))
-    (property "Value" "Conn_01x08_Male" (id 1) (at 83.82 116.84 0))
+    (property "Reference" "J2" (id 0) (at 83.82 114.3 0))
+    (property "Value" "Conn_01x10_Male" (id 1) (at 83.82 116.84 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" (id 2) (at 83.185 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2286,7 +2286,7 @@
   (symbol (lib_id "Device:C_Small") (at 121.285 182.88 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 71e78113-df27-4c0c-8d84-46bb2b1169a8)
-    (property "Reference" "C38" (id 0) (at 121.285 186.69 90))
+    (property "Reference" "C8" (id 0) (at 121.285 186.69 90))
     (property "Value" "1uF" (id 1) (at 121.2913 179.07 90))
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 121.285 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2385,8 +2385,8 @@
   (symbol (lib_id "Connector:Conn_01x10_Male") (at 82.55 95.885 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8efaa33f-ca82-4e3b-8b28-d24d5dd94ed9)
-    (property "Reference" "J2" (id 0) (at 83.185 80.01 0))
-    (property "Value" "Conn_01x08_Male" (id 1) (at 83.185 82.55 0))
+    (property "Reference" "J1" (id 0) (at 83.185 80.01 0))
+    (property "Value" "Conn_01x10_Male" (id 1) (at 83.185 82.55 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" (id 2) (at 82.55 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2408,7 +2408,7 @@
   (symbol (lib_id "Eurorack_Header:Eurorack_10_pin_power") (at 43.815 172.085 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8f085082-4aeb-402b-b84f-d7f4cac09e17)
-    (property "Reference" "J1" (id 0) (at 38.735 179.705 0))
+    (property "Reference" "J4" (id 0) (at 38.735 179.705 0))
     (property "Value" "Eurorack_10_pin_power" (id 1) (at 37.465 163.195 0))
     (property "Footprint" "Custom_Footprints:Eurorack_10_pin_header" (id 2) (at 43.815 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2606,7 +2606,7 @@
   (symbol (lib_id "Device:C_Small") (at 100.33 182.88 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a8b528a7-dda2-4a2b-b4fc-21c8234268be)
-    (property "Reference" "C37" (id 0) (at 100.33 186.69 90))
+    (property "Reference" "C5" (id 0) (at 100.33 186.69 90))
     (property "Value" "1uF" (id 1) (at 100.3363 179.07 90))
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 100.33 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2913,8 +2913,8 @@
   (symbol (lib_id "Connector:Conn_01x10_Male") (at 114.935 112.395 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid dd85f030-493f-4501-9a8a-e07928a49b79)
-    (property "Reference" "J4" (id 0) (at 115.57 96.52 0))
-    (property "Value" "IO" (id 1) (at 115.57 99.06 0))
+    (property "Reference" "J3" (id 0) (at 115.57 96.52 0))
+    (property "Value" "Conn_01x10_Male" (id 1) (at 115.57 99.06 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" (id 2) (at 114.935 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3530,8 +3530,8 @@
     (path "/ec53dcb7-5d13-4ed7-abd0-68eabd4755ed"
       (reference "C4") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/e84f8fd9-bd0a-4839-99bd-bd22e1164470/4f532a1f-7ffe-4156-9778-aee108f260cb"
-      (reference "C5") (unit 1) (value "3.3nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    (path "/a8b528a7-dda2-4a2b-b4fc-21c8234268be"
+      (reference "C5") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/e84f8fd9-bd0a-4839-99bd-bd22e1164470/a82fa926-487a-4c80-8cd3-f96c4eea9485"
       (reference "C6") (unit 1) (value "6.8nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -3539,8 +3539,8 @@
     (path "/e84f8fd9-bd0a-4839-99bd-bd22e1164470/91200239-d4eb-4434-8b90-facf1254cddf"
       (reference "C7") (unit 1) (value "6.8nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/e84f8fd9-bd0a-4839-99bd-bd22e1164470/1d87cdf4-4f83-47cf-81a5-94f0703716a0"
-      (reference "C8") (unit 1) (value "6.8nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    (path "/71e78113-df27-4c0c-8d84-46bb2b1169a8"
+      (reference "C8") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/e84f8fd9-bd0a-4839-99bd-bd22e1164470/9f668a87-19d4-4d7b-b3ff-e6f382f127f3"
       (reference "C9") (unit 1) (value "560pF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -3626,11 +3626,11 @@
     (path "/4ed2cc61-9552-41b0-be0f-c23455f3fe4c/18aca13d-6834-43cb-a2c1-0831ed354854"
       (reference "C36") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/a8b528a7-dda2-4a2b-b4fc-21c8234268be"
-      (reference "C37") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    (path "/e84f8fd9-bd0a-4839-99bd-bd22e1164470/4f532a1f-7ffe-4156-9778-aee108f260cb"
+      (reference "C37") (unit 1) (value "3.3nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/71e78113-df27-4c0c-8d84-46bb2b1169a8"
-      (reference "C38") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    (path "/e84f8fd9-bd0a-4839-99bd-bd22e1164470/1d87cdf4-4f83-47cf-81a5-94f0703716a0"
+      (reference "C38") (unit 1) (value "6.8nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/e84f8fd9-bd0a-4839-99bd-bd22e1164470/60546b12-55d9-4ab4-9cd7-c432a53568d2"
       (reference "C39") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -3674,17 +3674,17 @@
     (path "/4ed2cc61-9552-41b0-be0f-c23455f3fe4c/02ace950-ad92-48e5-9d29-ee58387946d8"
       (reference "FREQ_OFFSET4") (unit 1) (value "50k") (footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical")
     )
-    (path "/8f085082-4aeb-402b-b84f-d7f4cac09e17"
-      (reference "J1") (unit 1) (value "Eurorack_10_pin_power") (footprint "Custom_Footprints:Eurorack_10_pin_header")
-    )
     (path "/8efaa33f-ca82-4e3b-8b28-d24d5dd94ed9"
-      (reference "J2") (unit 1) (value "Conn_01x08_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_01x10_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
     )
     (path "/3c593478-0576-4e30-bad8-fa652ed5b16d"
-      (reference "J3") (unit 1) (value "Conn_01x08_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "Conn_01x10_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
     )
     (path "/dd85f030-493f-4501-9a8a-e07928a49b79"
-      (reference "J4") (unit 1) (value "IO") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "Conn_01x10_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
+    )
+    (path "/8f085082-4aeb-402b-b84f-d7f4cac09e17"
+      (reference "J4") (unit 1) (value "Eurorack_10_pin_power") (footprint "Custom_Footprints:Eurorack_10_pin_header")
     )
     (path "/d0e40d50-e24f-4dca-95c7-4f1817993833"
       (reference "R1") (unit 1) (value "14k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
