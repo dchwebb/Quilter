@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|70220000|54460000|0383aa38-c5b4-4396-9d02-c2bc144e53ad|39149222-4f40-4024-8a20-a147cbd5e522",
+        "silk_over_copper|70220000|57000000|0383aa38-c5b4-4396-9d02-c2bc144e53ad|002e3a91-aacc-4176-817f-3339b9f201c6"
+      ],
       "meta": {
         "version": 2
       },
@@ -381,6 +384,8 @@
         "nets": [
           "+12V",
           "-12V",
+          "/+12V_IN",
+          "/-12V_IN",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
