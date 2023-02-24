@@ -1,9 +1,10 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [
+      "+12V",
       "GND",
       "-12V"
     ],
@@ -65,7 +66,7 @@
       35,
       36
     ],
-    "visible_layers": "ffcffdf_fffffffb",
+    "visible_layers": "ffcffff_fffffffb",
     "zone_display_mode": 1
   },
   "meta": {
