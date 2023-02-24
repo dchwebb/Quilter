@@ -149,7 +149,7 @@
 
   (footprint "Custom_Footprints:Alpha_9mm_Potentiometer_Aligned" (layer "F.Cu")
     (tedit 603FB6BB) (tstamp 40faeaad-9faa-4b10-ae0a-17a4605f07e0)
-    (at 70.2 79.25)
+    (at 70.2 79.3)
     (descr "Potentiometer 9mm")
     (tags "Potentiometer 9mm")
     (property "Sheetfile" "Quilter_Controls.kicad_sch")
@@ -695,7 +695,7 @@
 
   (footprint "Custom_Footprints:Alpha_9mm_Potentiometer_Aligned" (layer "F.Cu")
     (tedit 603FB6BB) (tstamp f17b07d2-8f13-47f6-8f2a-32fc5f184b88)
-    (at 70.2 55.47)
+    (at 70.2 55.5)
     (descr "Potentiometer 9mm")
     (tags "Potentiometer 9mm")
     (property "Sheetfile" "Quilter_Controls.kicad_sch")
@@ -938,7 +938,7 @@
   )
 
   (gr_rect (start 57 146.1) (end 83.45 149.7) (layer "Dwgs.User") (width 0.05) (fill none) (tstamp 013f555e-5883-4ba6-8cdc-a41adeac529b))
-  (gr_line locked (start 70.2 47.2) (end 70.2 166.2) (layer "Dwgs.User") (width 0.15) (tstamp 46352ef1-9cb4-45a1-9e04-3303db703ba8))
+  (gr_line locked (start 70.2 38.6) (end 70.2 157.6) (layer "Dwgs.User") (width 0.15) (tstamp 46352ef1-9cb4-45a1-9e04-3303db703ba8))
   (gr_rect locked (start 50 50) (end 90.4 150) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp c5c0659e-fa4d-4c84-a188-bca1e9ecf084))
   (gr_line (start 50 40.9) (end 50 150.9) (layer "Edge.Cuts") (width 0.15) (tstamp 542c9029-4a9a-4ee0-884e-d2881ce28f8e))
   (gr_line (start 50 40.9) (end 90.4 40.9) (layer "Edge.Cuts") (width 0.15) (tstamp a492d69a-ca74-408a-aad8-9bf1fbac9467))
