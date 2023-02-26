@@ -291,7 +291,7 @@
 
   (footprint "Custom_Footprints:THONKICONN_hole" (layer "F.Cu")
     (tedit 623483D2) (tstamp 9482e4de-e2c3-439c-8663-1d5475b2e736)
-    (at 70.2 138.9 180)
+    (at 80 140.7 180)
     (property "Sheetfile" "Quilter_Controls.kicad_sch")
     (property "Sheetname" "")
     (path "/22ceacfb-64fe-421b-b643-8128973923ee")
