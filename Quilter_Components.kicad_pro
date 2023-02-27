@@ -55,10 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_over_copper|65060000|54460000|0383aa38-c5b4-4396-9d02-c2bc144e53ad|39149222-4f40-4024-8a20-a147cbd5e522",
-        "silk_over_copper|65060000|57000000|0383aa38-c5b4-4396-9d02-c2bc144e53ad|002e3a91-aacc-4176-817f-3339b9f201c6"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -88,8 +85,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -407,7 +404,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Graphics/Quilter_Components.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -378,7 +378,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Graphics/Quilter_Panel.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
