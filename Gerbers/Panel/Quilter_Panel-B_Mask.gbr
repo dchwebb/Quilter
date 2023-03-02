@@ -1,0 +1,40 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.11)*%
+%TF.CreationDate,2023-03-01T17:36:46+00:00*%
+%TF.ProjectId,Quilter_Panel,5175696c-7465-4725-9f50-616e656c2e6b,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.11)) date 2023-03-01 17:36:46*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,7.000000*%
+%ADD11O,5.000000X3.200000*%
+%ADD12C,6.000000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,Ref\u002A\u002A*%
+X65000000Y-53600000D03*
+%TD*%
+%TO.C,Ref\u002A\u002A*%
+X80000000Y-76600000D03*
+%TD*%
+D11*
+%TO.C,Ref\u002A\u002A*%
+X82900000Y-156700000D03*
+%TD*%
+D12*
+%TO.C,Ref\u002A\u002A*%
+X60400000Y-140600000D03*
+%TD*%
+%TO.C,Ref\u002A\u002A*%
+X80000000Y-140600000D03*
+%TD*%
+D11*
+%TO.C,Ref\u002A\u002A*%
+X57500000Y-34200000D03*
+%TD*%
+M02*
