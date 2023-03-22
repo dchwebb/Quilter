@@ -14,20 +14,19 @@ Resonance is controlled from a potentiometer with self-oscillation available at 
 
 Polyphonic output is available from an RJ-45 socket and a mixed output is available on a 3.5mm jack socket.
 
-![Image](https://raw.githubusercontent.com/dchwebb/Quilter/master/Graphics/Quilter_Components.jpg "icon")
+The module is built around the Sound Semiconductor SSI2144 Fatkeys Four-Pole Voltage Controlled Filter. A number of TL074/TL072 op-amps are used for control signal mixing, buffering and output amplification.
 
-The module is built around the Sound Semiconductor SSI2144 Fatkeys Four-Pole Voltage Controlled Filter.
-
-A number of TL074/TL072 op-amps are used for control signal mixing, buffering and output amplification.
-
-Two trimmer potentiometers are available for each voice to control Volt Per Octave when using the filter in self-resonant mode, and Frequency Offset to control the base frequency of the cut-off of each voice.
+Two trimmer potentiometers are available for each voice to control volt per octave when using the filter in self-resonant mode, and frequency offset to control the base frequency of the cut-off of each voice.
 
 Technical
 ---------
 
+![Image](https://raw.githubusercontent.com/dchwebb/Quilter/master/Graphics/Quilter_Components.jpg "icon")
+
 Construction is a sandwich of three PCBs with a component board, a controls board and a panel. PCBs designed in Kicad v6.
 
 [Components schematic](https://raw.githubusercontent.com/dchwebb/Quilter/master/Quilter_Components.pdf)
+
 [Controls schematic](https://raw.githubusercontent.com/dchwebb/Quilter/master/Quilter_Controls.pdf)
 
 ### Power
