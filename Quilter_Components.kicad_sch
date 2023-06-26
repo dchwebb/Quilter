@@ -1774,12 +1774,16 @@
     (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
     (uuid 73dea3c9-f2e9-42af-a9fc-227bdf378ac6)
   )
+  (text "V2 changes:\nAdded blocking caps on Audio_Outs\n" (at 204.47 170.18 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 73f244bd-6ed5-4631-b362-23d8013c0b5f)
+  )
   (text "Output" (at 179.705 163.83 0)
     (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
     (uuid 866dea8d-4cd2-4d8a-a611-e6eee168703d)
   )
-  (text "Potential V2 fixes:\nMixed audio too loud - R6 try 4.7k in place of 10k (or variable resistor)\nMixed audio has DC offset - use blocking caps on Audio_Out?\nResonance cannot reach maximum on all variants\n - reduce Q Control resistor from 27k to 24-25k (R27, R40, R53, R66)"
-    (at 204.47 179.07 0)
+  (text "Potential V2 fixes:\nMixed audio too loud - R6 try 4.7k in place of 10k (or variable resistor)\nResonance cannot reach maximum on all variants\n - reduce Q Control resistor from 27k to 24-25k (R27, R40, R53, R66)"
+    (at 204.47 180.34 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a156c202-d865-45cc-a4ac-b4d74c03036a)
   )
@@ -4348,6 +4352,18 @@
     )
     (path "/4ed2cc61-9552-41b0-be0f-c23455f3fe4c/3e304c49-ead5-4828-81cf-f27cb353a63e"
       (reference "C46") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/e84f8fd9-bd0a-4839-99bd-bd22e1164470/2c05cbd3-ef67-48b3-ba85-a3bd09df8735"
+      (reference "C47") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/d9279b8b-eddd-468d-889c-ab682c020f45/2c05cbd3-ef67-48b3-ba85-a3bd09df8735"
+      (reference "C48") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/3b233311-750f-4948-b3ee-a90810d15ca2/2c05cbd3-ef67-48b3-ba85-a3bd09df8735"
+      (reference "C49") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/4ed2cc61-9552-41b0-be0f-c23455f3fe4c/2c05cbd3-ef67-48b3-ba85-a3bd09df8735"
+      (reference "C50") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/37b546d9-67b1-4476-930d-e62983801a78"
       (reference "D1") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
