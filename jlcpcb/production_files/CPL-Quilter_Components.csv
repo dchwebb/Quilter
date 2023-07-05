@@ -111,4 +111,4 @@ R72,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,76.9,-64.8,0.0,top
 R73,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,63.5,-74.6,180.0,top
 R74,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,76.9,-66.5,0.0,top
 R75,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,63.5,-64.4,180.0,top
-U1,TL072,SO-8_3.9x4.9mm_P1.27mm,70.2,-80.6,180.0,top
+U1,TL072,SO-8_3.9x4.9mm_P1.27mm,70.2,-80.6,90.0,top

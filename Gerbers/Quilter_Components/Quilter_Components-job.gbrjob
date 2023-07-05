@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.8)"
+      "Version": "(6.0.11)"
     },
-    "CreationDate": "2023-03-03T18:33:55+00:00"
+    "CreationDate": "2023-07-04T16:59:20+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -60,16 +60,6 @@
     {
       "Path": "Quilter_Components-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Quilter_Components-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Quilter_Components-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
