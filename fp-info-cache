@@ -1,4 +1,4 @@
-20983356023128392
+21000403831077929
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -50337,6 +50337,13 @@ Through Hole Mount Test Points
 1
 1
 Custom_Footprints
+1mm_Test_Point
+1.3mm Test Point
+Through Hole Mount Test Points
+0
+1
+1
+Custom_Footprints
 2mm_Connector
 
 
@@ -50645,6 +50652,27 @@ mounting hole 6mm no annular
 0
 0
 Custom_Footprints
+Potentiometer_Bourns_PTA4543_Slot
+Bourns single-gang slide potentiometer, 45.0mm travel, https://www.bourns.com/docs/Product-Datasheets/pta.pdf
+Bourns single-gang slide potentiometer 45.0mm
+0
+0
+0
+Custom_Footprints
+RJ45_Amphenol_RJHSE-3080
+RJ45 vertical connector https://www.on-shore.com/wp-content/uploads/PJ012-8P8CX.pdf
+RJ45 PJ012
+0
+8
+8
+Custom_Footprints
+RJ45_Amphenol_RJHSE-3080_Mounting_Hole
+RJ45 vertical connector https://www.on-shore.com/wp-content/uploads/PJ012-8P8CX.pdf
+RJ45 PJ012
+0
+0
+0
+Custom_Footprints
 RJ45_Molex_42878-8506
 RJ45 vertical connector https://www.on-shore.com/wp-content/uploads/PJ012-8P8CX.pdf
 RJ45 PJ012
@@ -50658,6 +50686,13 @@ RJ45 PJ012
 0
 0
 0
+Custom_Footprints
+SP3T_Mini_Switch
+
+
+0
+3
+3
 Custom_Footprints
 SPDTSubMiniature
 SPDT Sub Miniature Switch
@@ -50686,6 +50721,13 @@ SSOP 0.65
 0
 20
 20
+Custom_Footprints
+STF202-22T1G
+
+
+0
+6
+6
 Custom_Footprints
 SWD_header
 
@@ -50812,6 +50854,20 @@ USB_B_MUSB_Straight female connector straight rugged MUSB D511
 0
 6
 5
+Custom_Footprints
+USB_C_Cutout
+
+
+0
+0
+0
+Custom_Footprints
+USB_C_Receptacle_Amphenol_12401951E412A
+https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_waterproof_usb_type_c.pdf
+USB C Type-C Receptacle SMD
+0
+28
+25
 Custom_Footprints
 USB_Micro-B_Amphenol
 Micro USB Type B Receptacle

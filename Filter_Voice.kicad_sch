@@ -1549,7 +1549,7 @@
     (property "Reference" "C11" (id 0) (at 219.456 131.3242 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF_C0G" (id 1) (at 219.456 133.8642 0)
+    (property "Value" "10nF" (id 1) (at 219.456 133.8642 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 216.916 132.588 0)
